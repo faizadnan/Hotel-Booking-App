@@ -1,0 +1,22 @@
+
+.homecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.hometitle{
+    width: 1024px;
+   
+}
+.hometitle h2{
+    margin-bottom: 20px;
+
+}
+
+.homeguest, h2{
+    margin: 20px 0;
+}

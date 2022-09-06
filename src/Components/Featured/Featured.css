@@ -1,0 +1,35 @@
+
+
+.featuredcontainer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    width: 100%;
+    gap: 20px;
+    z-index: 1;
+}
+
+.featureditems>img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 1;    
+    /* max-width: 400px; */
+}
+.featureditems>img:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.featureditems{
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    color: white;
+    position: relative;
+}
+
+.featureditemsTitle{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}

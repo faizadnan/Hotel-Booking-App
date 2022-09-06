@@ -1,0 +1,169 @@
+.outerdivv{
+    display: flex;
+    justify-content: center;
+}
+.innerdivv{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.reservebtn{
+background-color: blue;
+height: 35px;
+border: none;
+padding: 0 15px;
+font-size: 17px;
+color: white;
+}
+
+.reservebtn:hover{
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+}
+
+.addressdetails{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.addressdetails span{
+    font-size: 13px;
+    color: black;
+}
+.addressdetails h3{
+    font-size: 30px;
+    color: black;
+}
+
+.row1wrapper>h5{
+    font-size: 17px;
+    color: blue;
+}
+.row1wrapper>span{
+    font-size: 17px;
+    color: green;
+}
+
+.images>img{
+    width: 100%;
+    /* max-width: 1000px; */
+    height: 200px;
+}
+
+.imagesdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    /* padding: 5px; */
+    
+}
+
+.row3wrapper{
+    display: flex;
+    /* padding: 10px 0; */
+    /* border: 1px solid red; */
+    /* padding: 5px; */
+    flex-wrap: wrap;     
+
+}
+
+
+
+.row3col1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* border: 1px solid red; */
+    flex: 3;
+    gap: 20px;
+    flex-wrap: wrap;
+   
+}
+
+.row3col1> p{
+    font-size: 15px;
+}
+.row3col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    flex: 1.5;
+    padding: 10px;
+    background-color: rgb(200, 225, 241);
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.row3col2>h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+.row3col2>p{
+    font-size: 12px;
+    text-align: center;
+}
+
+.slider{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(231, 218, 218); */
+    
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    
+}
+
+.sliderwrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderimage{
+    width: 80%;
+    height: 80vh;
+  
+}
+
+.close{
+    position: absolute;
+    right: 20px;
+    color: lightslategray;
+    cursor: pointer;
+    top: 20px;
+}
+
+.slide{
+
+    color: lightslategray;
+    cursor: pointer;
+    font-size: 40px;
+
+
+}

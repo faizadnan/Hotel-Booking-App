@@ -1,0 +1,165 @@
+.header{
+    background-color: blue;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.header.listmode{
+    height: 100px;
+}
+
+.innerheaderdiv{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+  
+    flex-direction: column;
+    
+    
+    
+}
+
+.headerlist{
+    display: flex ;
+    color: white;
+    /* margin: 20px 0 100px 0; */
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.listitem{
+    display: flex;
+    gap: 5px;
+    align-items: flex-start;
+  
+}
+
+.innerheaderdiv h1{
+    color: white;
+    margin: 10px 0;
+    font-weight: 1000;
+}
+.innerheaderdiv>span{
+    color: white;
+    padding: 10px 0;
+    font-weight: 900;
+}
+
+.innerheaderdiv>button{
+    width: 130px;
+    background-color: rgb(97, 97, 209);
+    color: white;
+    padding: 5px;
+    border: none;
+    font-weight: 500;
+}
+.innerheaderdiv>button:hover{
+    color: rgb(97, 97, 209);
+    background-color: white;
+ 
+}
+
+.headersearch{
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border: 2px solid orange;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+    color: lightgrey;
+}
+
+.headersearchitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  
+    
+}
+
+.headersearchicon{
+    color: lightgray;
+}
+
+.headersearchitem>button{
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-weight: 500;
+}
+.headersearchitem>button:hover{
+   color: rgb(0, 0, 235);
+   background-color: rgb(221, 213, 243);
+   
+}
+
+.headersearchinput{
+    border: none;
+    box-sizing: border-box;
+    padding: 0 2px;
+
+}
+.headersearchinput:focus{
+    outline: 2px solid orange;
+    box-sizing: border-box;
+
+}
+
+ .date{
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+} 
+
+.options{
+    position: absolute;
+    top: 50px;
+    border-radius: 25px;
+    padding: 10px;
+    z-index: 2;
+    background-color: white;
+    outline: orange;
+    
+
+    
+}
+
+.optionitems{
+    width: 200px;
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    color: rgb(131, 120, 120);
+
+}
+
+.personcontrolbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+ 
+    
+}
+
+.personcontrolbutton> button{
+    border: 1px solid orange;
+    cursor: pointer;
+  border-radius: 5px ;
+    outline: none;
+}
+
+.personcontrolbutton>button:disabled{
+    cursor: not-allowed;
+}

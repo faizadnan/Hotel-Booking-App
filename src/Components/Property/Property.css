@@ -1,0 +1,43 @@
+
+
+.propertycontainer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1024px;
+    width: 100%;
+    gap: 18px;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.propertyitems>img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 1;    
+    /* max-width: 400px; */
+}
+/* .propertyitems>img:hover{
+    transform: scale(0.9);
+    transition: 0.2s;
+} */
+
+.propertyitems{
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    color: black;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+
+.propertyitemsTitle>h1{
+    font-size: 17px;
+    font-weight: 700;
+}
+.propertyitemsTitle>h3{
+    font-size: 14px;
+    color: darkgrey;
+}
+

@@ -1,0 +1,29 @@
+.Footerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.innerfooterdiv{
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    justify-content: space-between;
+    align-items: center;
+
+  
+}
+
+.footeritems{
+    display: flex;
+    flex-direction: column  ;
+    font-size: 15px;
+}
+
+.Footerdiv>span{
+    font-size: 13px;
+    
+}
