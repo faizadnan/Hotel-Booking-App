@@ -31,7 +31,7 @@
 .featureditemsTitle{
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 19px;
 }
 
 @media screen and (max-width:584px) {
