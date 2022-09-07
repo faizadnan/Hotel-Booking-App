@@ -9,7 +9,8 @@
 }
 
 .hometitle{
-    width: 1024px;
+    width: 100%;
+    max-width: 1024px;
    
 }
 .hometitle h2{

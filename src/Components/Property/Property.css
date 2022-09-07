@@ -41,3 +41,9 @@
     color: darkgrey;
 }
 
+@media screen and (max-width:626px) { 
+    .propertycontainer{
+        flex-wrap: wrap;
+    }  
+}
+

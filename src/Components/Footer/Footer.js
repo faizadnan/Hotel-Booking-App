@@ -15,7 +15,7 @@ export default function Footer() {
                 <span>Districts</span>
                 <span>Places of interest</span>
             </div>
-            <div className='footeritems'>
+            <div className='footeritems footeritem2'>
                 <span>Countries</span>
                 <span>Regions</span>
                 <span>Cities</span>
@@ -29,14 +29,14 @@ export default function Footer() {
                 <span>Districts</span>
                 <span>Places of interest</span>
             </div>
-            <div className='footeritems'>
+            <div className='footeritems footeritem2'>
                 <span>Countries</span>
                 <span>Regions</span>
                 <span>Cities</span>
                 <span>Districts</span>
                 <span>Places of interest</span>
             </div>
-            <div className='footeritems'>
+            <div className='footeritems footeritem2'>
                 <span>Countries</span>
                 <span>Regions</span>
                 <span>Cities</span>
